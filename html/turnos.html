@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>turnos</title>
+    <link rel="stylesheet" href="../styles/turnos.css">
+</head>
+
+<body>
+    <form>
+        <label>nombre</label>
+        <input type="text" id="nombre"><br>
+        <label>apellido</label>
+        <input type="text" id="apellido"><br>
+        <label>dni</label>
+        <input type="text" id="dni"><br>
+        <label>telefono</label>
+        <input type="text" id="telefono"><br> 
+        <label>sexo</label>
+        <input type="text" id="sexo"><br>
+        <label>fecha</label>
+        <input type="date" id="fecha"><br>
+        <label>tipo</label>
+
+        <select name="tipo">
+            <option value="1">consulta medica</option>
+            <option value="2">estudio</option>
+            <option value="3">entrega resultados</option>
+        </select>
+    
+    </br><button type="button" onclick="texto()">Confirmar</button>
+    </form>
+        <a href="../index.html">
+        <button type="input" onclick="volver()">Volver</button>
+    </a>
+
+</body>
+<script src="../scripts/scriptturnos.js"></script>
+</html>
